@@ -1,0 +1,51 @@
+.sk {
+    width: 74px;
+    height: 33px;
+    position: absolute;
+    top: 40px;
+    left: 182px;
+    background: url("../images/sk.png") no-repeat 17px 3px;
+    border-left: 1px solid #bf0000;
+    padding-left: 14px;
+    margin-left: 14px;
+}
+
+.sk_nav_left li a{
+    padding: 0 25px;
+    float: left;
+    font-size: 17px;
+    font-width: 700;
+    line-height: 44px;
+    color: #000;
+}
+.sk_nav_left li:hover a {
+    color: #bf0000;
+}
+
+.sk_nav_right li a {
+    float: left;
+    line-height: 44px;
+    padding: 0 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.sk_nav_right li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+.sk_container .sk_bd li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    margin-right: 12px;
+}
+
+.sk_container .sk_bd li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_container .sk_bd li:hover {
+    border: 1px solid #f30000;
+}
